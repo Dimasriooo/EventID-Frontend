@@ -1,0 +1,56 @@
+/* src/components/Header.css */
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    background-color: #1702ff;
+    color: white;
+    max-width: 1200px;
+  }
+  .nav-links {
+    list-style-type: none;
+    display: flex;
+  }
+  
+  .nav-links li {
+    margin-left: 20px;
+  }
+  
+  .nav-links a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+  }
+
+  @media (min-width: 768px) {
+    .navbar {
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+    }
+  
+    .navbar__brand {
+      margin-bottom: 0;
+    }
+  
+    .navbar__list {
+      flex-direction: row;
+    }
+  
+    .navbar__item {
+      margin: 0 1rem;
+    }
+  }
+  
+  /* Large Screen */
+  @media (min-width: 992px) {
+    /* 
+     * Nothing TODO HERE.
+     * We haven't styling Navbar.
+     */
+  }
+  

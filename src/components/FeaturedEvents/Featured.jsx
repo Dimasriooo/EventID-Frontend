@@ -8,8 +8,13 @@ function FeaturedEvents() {
   ];
 
   return (
-    <section className="p-10">
-      <h2 className="text-2xl font-bold">Featured Events</h2>
+    <section className="p-10 bg-gray-50">
+      <h2 className="text-2xl font-bold text-center text-black mb-12">Featured Events</h2>
+      <p className="text-2xl text-black mb-12">
+      Di EventID Arena Experience, ada sesuatu yang menarik dengan fitur eksklusif yang kami tingkatkan setiap hari. Telusuri kota kami ke 
+          temukan acara yang menghubungkan Anda dengan orang-orang yang berpikiran sama. Komunitas kami dibangun untuk menyediakan konten berkualitas
+          memberikan pengalaman luar biasa bagi semua orang yang menghadiri acara kami.
+        </p>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mt-6">
         {events.map(event => (
           <div key={event.id} className="border rounded-lg shadow-md p-4">
