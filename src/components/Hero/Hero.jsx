@@ -10,7 +10,7 @@ import React from 'react';
 //   );
 // }
 
-import heroImage from '/EventID-React/EventID-Frontend/src/assets/meme otw.jpg';
+import heroImage from '/EventID-React/EventID-Frontend/src/assets/Logo EventID.png';
 
 const Hero = () => {
   return (

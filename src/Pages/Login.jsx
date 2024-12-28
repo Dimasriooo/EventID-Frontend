@@ -2,7 +2,7 @@ import React from 'react';
 
 function LoginPage() {
   return (
-    <section className="p-10 flex flex-col items-center">
+    <section className="p-10 flex flex-col items-center mt-16">
       <h1 className="text-3xl font-bold mb-6">Login</h1>
       <form className="w-full max-w-md space-y-4">
         <div>

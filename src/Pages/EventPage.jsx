@@ -17,7 +17,7 @@ function EventPage() {
   ];
 
   return (
-    <section className="p-10">
+    <section className="p-10 mt-16">
       <h1 className="text-3xl font-bold mb-6">Featured Events</h1>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
         {events.map(event => (

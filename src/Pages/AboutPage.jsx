@@ -12,7 +12,7 @@ function AboutPage() {
   ];
 
   return (
-    <section className="p-10">
+    <section className="p-10 mt-16 from-blue-500 to-purple-600">
       <h1 className="text-3xl font-bold mb-6">Discover Our Blog</h1>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
         {articles.map(article => (
