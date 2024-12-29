@@ -55,11 +55,6 @@ function EventPage() {
   return (
       <section className="p-10  bg-gray-50">
       <h1 className="text-3xl font-bold mb-6 text-black">Featured Events</h1>
-      {/* <p className="text-lg text-black mb-12">
-        Di EventID Arena Experience, ada sesuatu yang menarik dengan fitur eksklusif yang kami tingkatkan setiap hari. Telusuri kota kami ke 
-        temukan acara yang menghubungkan Anda dengan orang-orang yang berpikiran sama. Komunitas kami dibangun untuk menyediakan konten berkualitas
-        memberikan pengalaman luar biasa bagi semua orang yang menghadiri acara kami.
-      </p> */}
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
         {events.map(event => (
           <div key={event.id} className="border rounded-lg shadow-md p-4 hover:shadow-lg transition-shadow">
@@ -75,13 +70,13 @@ function EventPage() {
           </div>
         ))}
       </div>
-      <h2 className="text-2xl font-bold mt-10">Event Planning Tips</h2>
+      <h2 className="text-2xl font-bold mt-10 text-black">Event Planning Tips</h2>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mt-6">
         {tips.map(tip => (
           <div key={tip.id} className="border rounded-lg shadow-md p-4 flex items-center space-x-4">
             <div className="text-4xl">{tip.icon}</div>
             <div>
-              <h4 className="font-bold text-lg">{tip.title}</h4>
+              <h4 className="font-bold text-lg text-black">{tip.title}</h4>
               <p className="text-gray-600">{tip.description}</p>
             </div>
           </div>

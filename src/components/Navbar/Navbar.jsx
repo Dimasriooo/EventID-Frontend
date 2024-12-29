@@ -36,7 +36,9 @@ function Navbar() {
         <a href="/events" className="text-white hover:text-blue-200 transition-colors">FeaturedEvents</a>
         <a href="/updates" className="text-white hover:text-blue-200 transition-colors">Event</a>
         <a href="/about" className="text-white hover:text-blue-200 transition-colors">Reviews</a>
-        <a href="/booking-list" className="text-white hover:text-blue-200 transition-colors">Booking</a>
+        <a href="/booking-list" className="text-white hover:text-blue-200 transition-colors">Booking</a> |
+        <a href="/login" className="text-white hover:text-blue-200 transition-colors">Login</a> 
+        <a href="/register"className="text-white hover:text-blue-200 transition-colors">Register</a>
       </div>
       </div>
       </nav>

@@ -7,7 +7,8 @@ function BookingPage() {
     fullName: '',
     email: '',
     eventName: '',
-    date: ''
+    date: '',
+    status: 'pending'
   });
 
   const handleSubmit = (e) => {
@@ -18,7 +19,6 @@ function BookingPage() {
     const newBooking = {
       id: Date.now(),
       ...formData,
-      status: 'confirmed'
     };
     
     localStorage.setItem('bookings', JSON.stringify([...existingBookings, newBooking]));
@@ -85,6 +85,20 @@ function BookingPage() {
             className="w-full border rounded p-2"
             required 
           />
+        </div>
+        <div>
+          <label className="block text-sm font-medium mb-1">Status</label>
+          <select
+            name="status"
+            value={formData.status}
+            onChange={handleInputChange}
+            className="w-full border rounded p-2"
+            required
+          >
+            <option value="pending">Pending</option>
+            <option value="confirmed">Confirmed</option>
+            <option value="completed">Completed</option>
+          </select>
         </div>
         <button 
           type="submit"

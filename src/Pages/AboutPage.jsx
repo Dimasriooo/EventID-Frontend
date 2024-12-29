@@ -70,13 +70,14 @@ function AboutPage() {
   };
 
   return (
-    <section className="p-10 mt-16 from-blue-500 to-purple-600">
+    <section className="p-10  bg-white from-blue-500 to-purple-600">
       <div className="container mx-auto px-4">
-      <h2 className="text-3xl font-bold mb-6">
+      <h2 className="text-3xl font-bold text-center mb-6 text-black">
           Customer Reviews
         </h2>
-        <p className="text-3xl font-bold mb-6">
-          See what our customers have to say about their experience
+        
+        <p className="text-xl font-bold text-center mb-6 text-black">
+          Discover the amazing experiences our customers have had with EventID
         </p>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
