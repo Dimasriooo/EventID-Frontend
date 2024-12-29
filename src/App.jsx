@@ -58,6 +58,7 @@ import AboutPage from './Pages/AboutPage.jsx'
 import Register from './Pages/Register.jsx'
 import ForgotPass from './Pages/ForgotPass.jsx'
 import Booking from './components/Booking/Booking.jsx'
+import BookingListPage from './components/Booking/BookingList.jsx';
 
 // Layout component yang berisi Navbar dan Footer
 function Layout() {
@@ -90,6 +91,8 @@ function App() {
         <Route path="/register" element={<Register />} />
         <Route path="/forgot-password" element={<ForgotPass />} />
         <Route path="/booking" element={<Booking />} />
+        <Route path="/updates" element={<EventsUpdates />} />
+        <Route path="/booking-list" element={<BookingListPage />} />
       </Route>
     </Routes>
   );
