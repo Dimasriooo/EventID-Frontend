@@ -18,7 +18,7 @@ function BookingPage() {
     const newBooking = {
       id: Date.now(),
       ...formData,
-      status: 'Pending'
+      status: 'confirmed'
     };
     
     localStorage.setItem('bookings', JSON.stringify([...existingBookings, newBooking]));

@@ -19,7 +19,7 @@ function BookingListPage() {
           >
             <div className="flex justify-between items-start">
               <div>
-                <h3 className="font-semibold text-lg">{booking.eventName}</h3>
+                <h3 className="font-semibold text-lg text-black">{booking.eventName}</h3>
                 <p className="text-gray-600">{booking.fullName}</p>
                 <p className="text-gray-500">{booking.email}</p>
                 <p className="text-gray-500">Date: {booking.date}</p>

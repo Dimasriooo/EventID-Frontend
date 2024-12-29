@@ -13,7 +13,7 @@ function LoginPage() {
           <label className="block text-sm font-medium mb-1">Password</label>
           <input type="password" className="w-full border rounded p-2" placeholder="Enter your password" />
         </div>
-        <button className="w-full bg-blue-500 text-white py-2 rounded hover:bg-blue-600">Login</button>
+        <button a href="/" className="w-full bg-blue-500 text-white py-2 rounded hover:bg-blue-600">Login</button>
         <p className="text-center mt-4 text-sm">
           Forgot your password? <a href="/forgot-password" className="text-blue-500">Reset it</a>
         </p>
