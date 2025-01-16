@@ -1,6 +1,6 @@
 import React from 'react';
 import heroImage from '/EventID-React/EventID-Frontend/src/assets/Logo EventID.png';
-import bgImage from '/EventID-React/EventID-Frontend/src/assets/flowers.jpg';
+import bgImage from '/EventID-React/EventID-Frontend/src/assets/wedding.jpg';
 import { Link } from 'lucide-react';
 
 
